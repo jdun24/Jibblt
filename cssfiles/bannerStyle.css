@@ -1,0 +1,53 @@
+main{
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    height: 135vh;            /* Full viewport height */
+    width: 95vw;             /* Full viewport width */
+    flex-direction: column;   /* Stack child divs vertically */
+}
+
+/* background of entire page */
+body{
+    /*background-color: rgb(14, 16, 32);*/
+    background-color: rgb(30, 30, 30);
+}
+
+h1{
+    text-align: center;
+}
+
+/*      banner      */
+/* This is my name at the top of all pages */
+.banner{
+    background-color: rgb(30, 30, 30);
+    color: #dadde1;
+}
+
+
+/*      navbar class        */
+.navbar{
+    background-color: #10060e;
+    border: 1px solid #8753b8;
+}
+
+.navbar ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    display: inline-flex;
+
+}
+/*  nav bar links */
+.navbar a{
+    color: rgb#0077b5;
+    text-decoration: linen;
+    padding: 15px;
+    display: grid;
+    text-align: center;
+
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 0%, 10%);
+}

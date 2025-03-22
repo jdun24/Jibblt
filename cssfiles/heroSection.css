@@ -1,0 +1,46 @@
+
+/*    Hero Section    */
+.heroSection {
+  /*background-image: url('/Images/Backgrounds/canvasBG.jpg');*/
+  background-color: #10060e;
+  color: #8753b8;  /* main & sec text */
+  padding: 25px;
+  border: 3px solid #8753b8;
+  max-width: 600px; /* Adjust width */
+  margin: 25px;
+  
+  display: flex;
+  align-items: center;  /* Vertically align text & image */
+  justify-content: center; /* Space between text & image */
+}
+
+.heroLinks a {
+  color: lightblue;
+  text-decoration: none;
+  padding: 20px;
+}
+.heroLinks i {
+
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.heroLinks i:hover {
+  color: #0077b5; /* LinkedIn blue */
+}
+
+
+.headShot {
+  width: 250px; /* Adjust as needed */
+  height: auto;
+  margin-left: 50px; /* Space between text & image */
+  border-radius: 5px; /* Optional styling */
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;  /* Stack items vertically */
+  gap: 50px;  /* Space between elements */
+  align-items: center;
+  text-align: center;
+}

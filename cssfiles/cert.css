@@ -1,0 +1,40 @@
+
+/*      Cert Section class      */
+.certSection {
+    background-color: #10060e;
+    color: #8753b8;  /* main & sec text */
+    border: 3px solid #8753b8;
+    max-width: 600px; /* Adjust width */
+    margin: 25px;
+    padding: 25px;
+    display: flex;
+    align-items: center;  /* Vertically align text & image */
+    justify-content: center; /* Space between text & image */
+  }
+
+/*      Cert Cards class        */
+.certCard h1{
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    gap: 10px;  /* Space between elements */
+    align-items: center;
+}
+
+.certCard img{
+    width: 250px; /* Adjust as needed */
+    height: auto;
+    margin-left: 25px; /* Space between text & image */
+    border-radius: 5px; /* Optional styling */
+    align-items: center;
+}
+
+.certCard h4{
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    gap: 10px;  /* Space between elements */
+    align-items: center;
+}
+
+
+
+
