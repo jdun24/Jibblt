@@ -1,12 +1,61 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>Devlog</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jibblts Devlog</title>
+    
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/footer.css">
+    <link rel="stylesheet" href="assets/devlogPost.css">
+    <!-- External Library for LinkedIn & Github logos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body>
 
-<h1>Devlog heading</h1>
-<p>Paragraph about my  devlogs</p>
+<!-- Navigation Bar -->
+    <nav class="navbar">
+        <ul>
+            <li class="nameLogo">Joseph Dunagan</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="devlog.html">Devlog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tools.html">My Cyber Tools</a></li>
+        </ul>
+    </nav>
 
+    <!--    steps to create a post
+        1. create a new div with format
+        <div class="post">
+            <div class="date"> <date> </div>
+            <a href="#"> <title> </a>
+        </div>
+        2. create new post page postOne.html
+        3. write your post!
+    -->
+    <section class="posts">
+        <h2>Posts</h2>
+        <div class="post">
+            <div class="date">March 23, 2025</div>
+            <a href="posts/postOne.html">My first website from scratch</a>
+        </div>
+    </section>
 </body>
+
+<footer class="siteFooter">
+
+    <h4>Jibblt (Jib - bolt)</h4>
+
+    <ul>
+        <li><a href="https://www.linkedin.com/in/joseph-dunagan" target="_self">
+            <i class="fab fa-linkedin fa-2x"></i></a>
+        </li>
+        <li><a href="https://github.com/jdun24" target="_self">
+            <i class="fab fa-github fa-2x"></i></a>
+            <span class="footerLinkText">jdun24</span>
+        </li>
+    </ul>
+</footer>
+
 </html>

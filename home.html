@@ -4,35 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jibblt.com</title>
-    <link rel="stylesheet" href="cssfiles/bannerStyle.css">
-    <link rel="stylesheet" href="cssfiles/heroSection.css">
-    <link rel="stylesheet" href="cssfiles/cert.css">
-    <!-- cloudflare is external library for LinkedIn & Github logos -->
+    
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/heroSection.css">
+    <link rel="stylesheet" href="assets/cert.css">
+    <link rel="stylesheet" href="assets/footer.css">
+    <!-- External Library for LinkedIn & Github logos -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
 </head>
 
-<!--  This is the banner section of every page -->
 <body>
-    <h1 class="banner">Joseph Dunagan</h1>
+    <!-- Navigation Bar -->
     <nav class="navbar">
         <ul>
-            <li><a href="home.html" target="_self">Home</a></li>
-            <li><a href="about.html" target="_self">About</a></li>
-            <li><a href="devlog.html" target="_self">Devlog</a></li>
-            <li><a href="contact.html" target="_self">Contact</a></li>
-            <li><a href="tools.html" target="_self">My Cyber Tools</a></li>
+            <li class="nameLogo">Joseph Dunagan</li>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="devlog.html">Devlog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="tools.html">My Cyber Tools</a></li>
         </ul>
     </nav>
-</body>
-<!--  Banner section end -->
 
-<!--    Banner is not inside of main for CSS styling purposes-->
-<main>
-    <!-- Home page specifics beigin -->
-    <body>
-        <!--        Hero Section        -->
-        <!-- Capture their attention here!!-->
+    <main>
+        <!-- Hero Section -->
         <div class="heroSection">
             <div class="text-content">
                 <h1>IT Professional</h1>
@@ -49,29 +44,41 @@
             <img src="images/headshot.jpg" alt="Professional Headshot" class="headShot">
         </div>
 
-        <!-- Certification Section  -->
+        <!-- Certification Section -->
         <div class="certSection">
-            <!-- a cert card for each active certification-->
             <div class="certCard">
                 <h1>PCNSA</h1>
-                <img src="images/CertImages/PCNSAImage.jpg">
+                <img src="images/CertImages/PCNSAImage.jpg" alt="PCNSA Certification">
                 <h4>Valid until: 07/01/2026</h4>
             </div>
             <div class="certCard">
                 <h1>CompTIA Security+</h1>
-                <img src="images/CertImages/SecImage.jpg">
+                <img src="images/CertImages/SecImage.jpg" alt="CompTIA Security+ Certification">
                 <h4>Valid until: 08/14/2027</h4>
             </div>
-            <!-- To be included after passing
-            <div class="certCard">
-                <h1>CompTIA Network+</h1>
-                <img src="" alt="Not yet completed">
-                <h4>TBD</h4>
-            </div>
-            To be included after Passing-->
         </div>
-    </body>
+    </main>
 
-</main>
+</body>
+
+<footer class="siteFooter">
+
+    <h4>Jibblt (Jib - bolt)</h4>
+
+    <ul>
+        <li><a href="https://www.linkedin.com/in/joseph-dunagan" target="_self">
+            <i class="fab fa-linkedin fa-2x"></i></a>
+        </li>
+        <li><a href="https://github.com/jdun24" target="_self">
+            <i class="fab fa-github fa-2x"></i></a>
+            <span class="footerLinkText">jdun24</span>
+        </li>
+    </ul>
+    <a href="about.html">
+        <i class="fas fa-envelope fa-2x"></i>
+        <h4>jdunagan24@gmail.com</h4>
+    </a>
+</footer>
+
 
 </html>
