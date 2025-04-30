@@ -4,7 +4,7 @@ const gameName = 'Jibolt';
 const tagLine = '6940'; 
 const region = 'americas';
 //!!! API key will need to be secured prior to deployment  !!!
-const apiKey = 'RGAPI-fcde7b58-3da4-4c0a-92fc-e8be5429b119'; 
+const apiKey = 'My_API_Key'; 
 
 //volatile variables
 var puuid = '';
