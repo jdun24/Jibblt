@@ -1,0 +1,46 @@
+body {
+    p{
+        margin-left: 10%;
+        line-height: 1.5;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 30px;
+
+    }
+}
+
+.jobPosts{
+    .date{
+        color: gray;
+        font-size: 20px;
+        margin-left: 10%;
+    }
+    /* h1 is for the very top of the post page*/
+    h1{
+        font-size: 40px;
+        font-weight: 300;
+        
+        letter-spacing: -1px;
+        margin-left: 3%;
+    }
+    /* purely for the asthetic line on top of the page*/
+    .topLine{
+        border-bottom: 1px solid lightgray;
+    }
+    /* h3 is for headers within paragraphs of a post */
+    h3{
+        font-size: 36px;
+        font-weight: 300;
+        
+        margin-left: 10%;
+        margin-right: 10%;
+        letter-spacing: -1px;
+    }
+
+    p{
+        line-height: 1.5;
+        margin-left: 10%;
+        margin-right: 10%;
+        font-size: 20px;
+    }
+}
